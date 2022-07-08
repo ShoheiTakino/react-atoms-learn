@@ -30,15 +30,15 @@ export const Users = () => {
   );
 };
 const SContainer = styled.div`
-  text-align: center;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 24px;
 `;
 const USerArea = styled.div`
   padding-top: 40px;
-  widows: 100%;
-  display; grid;
-  grid-template-columns: repeat(auto-fil, minmax(200px, 1fr));
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 `;
