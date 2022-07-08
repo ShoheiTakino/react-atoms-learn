@@ -13,7 +13,7 @@ export const Router = () => {
             <Top />
           </DefaultLayout>
         </Route>
-        <Route exact path="/users">
+        <Route path="/users">
           <HeaderOnly>
             <Users />
           </HeaderOnly>
